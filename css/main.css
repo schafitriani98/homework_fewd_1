@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+}
+/* header */
+.header {
+  background-color: black;
+  border-bottom: solid 2px yellow;
+}
+.header section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 10px;
+}
+.header div h3 {
+  color: yellow;
+  font-size: 20px;
+  font-family: 'Merriweather', serif;
+}
+.menu_header {
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+.menu_header a {
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
+  
+}
+.menu_header .Find_button {
+    font-family: 'Bebas Neue', cursive;
+    margin-right: 5px;
+}
+.container {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+
+}
+/* banner */
+.banner > h3 {
+  text-align: center;
+  background-color: grey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-style: italic;
+}
+.banner h3 span {
+  text-decoration: underline yellow;
+}
+.banner {
+  background-image: url(../pexels-s-migaj-747964.jpg);
+  background-size: cover;
+  height: 600px;
+}
+.banner .create_profile {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 150px;
+  margin-right: 10px;
+}
+.banner .create_profile > section {
+  background-color: whitesmoke;
+  opacity: 90%;
+  width: 20%;
+  padding: 20px 20px;
+}
+.banner .create_profile section h4 {
+  margin-top: 0px;
+}
+.banner section > .create_button {
+  display: flex;
+  justify-content: center;
+}
+.banner section button {
+  background-color: yellow;
+  border: yellow;
+  padding: 10px 20px;
+}
+.banner section .create_button button:hover {
+  background-color: rgb(66, 66, 59);
+}
+/* walk-through */
+.walk_through {
+  display: flex;
+}
+.walk_through .item {
+  padding: 30px;
+  margin-right: 2px;
+  box-shadow: 2px 0px 5px rgb(184, 182, 182);
+}
+.walk_through .item:last-child {
+  margin-right: 0px;
+}
+.walk_through .item button {
+  text-transform: uppercase;
+  padding: 0px 100px;
+  background-color: rgb(124, 124, 124);
+  border: rgb(80, 80, 80);
+  box-shadow: 2px 0px 2px rgb(80, 80, 80);
+  border-radius: 2px;
+  
+}
+.walk_through .item nav {
+    display: flex;
+    justify-content: center;
+  }
+  .walk_through .item nav p{
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    font-size: large;
+    margin: 10px auto;
+   }
+/* footer */
+.footer {
+  background-color: black;
+  height: 60px;
+  margin-top: 0px;
+}
+.footer p {
+  margin-left: 10px;
+  color: white;
+  padding-top: 20px;
+  font-size: 12px;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+}
